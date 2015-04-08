@@ -11,29 +11,83 @@ namespace Week1Practice
         static void Main(string[] args)
         {
             // DECLARING VARIABLES
-            // 1. Declare a string variable called "myName" and set it equal to your name
+            // 1. Declare a string variable called "myName" and set it equal to your name 
+            var myName = ("Lamond Dixon");
             // 2. Declare a number varible called "myAge" and set it equal to your age
+            var myAge = ("My age is 24");
             // 3. Declare a boolean value called "myBool" and set it equal to true or false;
+            bool myBool = true;
             // 4. Declare a new list of strings called "productsList" and set it equal to "basketball", "baseball glove", "tennis shoes", "hockey puck"
+            List<string> productsList = new List<string>();
+            productsList.Add("bsketball");
+            productsList.Add("baseball glove");
+            productsList.Add("tennis shoes");
+            productsList.Add("hockey puck");
+
 
             // PRINTING VARIABLES TO THE CONSOLE USING CONSOLE.WRITELINE()
             // 1. Print your name to the console using the format: "My name is <myName> and I'm a beast of a programmer"
+            var theName = ("Lamond");
+            Console.WriteLine("my name is " + (theName) + "and I'm a beast of a programmer" );
             // 2. Print out your age to the console using the format: "I am <myAge> years awesome."
+            var theAge = ("24");
+            Console.WriteLine("I am" + (theAge) + "years awesome.");
             // 3. Print out your boolean value using the format: "I set my boolean value equal to <myBool>"
+            var theBool = ("True");
+            Console.WriteLine("I set my boolean calue equal to" + (theBool));
             // 4. Using a For loop, print out each value in productsList.
+            for (int i = 0; productsList.Length; i++);
+            Console.WriteLine(productsList);
 
             // FOR LOOP PRACTICE
             // 1. Create a for loop that prints out the numbers 1 to 10.
+            for (int j = 1; j >= 11; j++) ;
+            Console.WriteLine(j);
             // 2. Create a for loop that prints out the numbers 10 to 1.
+            for (int b = 10; b <= 1; b--) ;
+            Console.WriteLine (b);
             // 3. Create a for loop that prints out the numbers 10 to 30, only printing the even numbers
+            for(int n = 10; n <= 30; n++(10));
             // 4. Create a for loop that prints out the numbers 100 to 75, only printing every 5th number (100, 95, 90, 85, 80, 75)
+            for (int m = 100; m <= 75; m-(5)));
 
             // WHILE LOOP PRACTICE
             // 1. Create a while loop that prints out the numbers from 1 to 10.
+            int i = 1;
+            while (i <= 10)
+            {
+                Console.WriteLine(i);
+                i++;
+            }
             // 2. Create a while loop that prints out the numbers from 10 to 1.
+            int a = 10;
+                while (a <= 1)
+                {
+                    Console.WriteLine(a);
+                    a--;
+                }
             // 3. Create a while loop that prints out the numbers from 15 to 30, only printing the even numbers
+            int h = 15;
+                while (h <= 30);
+            {
+                Console.WriteLine(h);
+                h -- (2);
+                 
+
+            }
             // 4. Create a while loop that prints out the numbers from 100 to 75, only printing every 5th number (100, 95, 90, 85, 80, 75)
+            int u = 100;
+                while (u <= 100);
+            Console.WriteLine(u);
+            u -- (5);
             // 5. Create a while loop that prints out the numbers from 1 to 10 until it reaches one that is divisible by 4.
+            int k = 1;
+                while (k <=20);
+            Console.WriteLine(k);
+            k %= (4);
+
+
+            
 
             // PUTTING IT TOGETHER
             // Use either FOR or WHILE loops to accomplish the following:
@@ -111,5 +165,7 @@ namespace Week1Practice
         }
 
         //END   -- FUNCTION DECLARATIONS
+
+        public static string j { get; set; }
     }
 }
